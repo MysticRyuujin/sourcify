@@ -19,6 +19,11 @@ export const CHAIN_OPTIONS = [
     {value: "arbitrum rinkeby", label: "Arbitrum Testnet Rinkeby", id: 421611},
     {value: "telos mainnet", label: "Telos EVM Mainnet", id: 40},
     {value: "telos testnet", label: "Telos EVM Testnet", id: 41},
+    {value: "syscoin mainnet", label: "Syscoin Mainnet", id: 57}, 
+    {value: "syscoin testnet", label: "Syscoin Tanenbaum Testnet", id: 5700},
+    {value: "ubiq", label: "Ubiq", id: 8},
+    {value: "oneledger mainnet", label: "OneLedger Mainnet", id: 311752642},
+    {value: "oneledger testnet", label: "OneLedger Testnet Frankenstein", id: 4216137055},
 ];
 
 export const ID_TO_CHAIN = {};

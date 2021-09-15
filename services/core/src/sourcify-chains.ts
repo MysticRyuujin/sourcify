@@ -189,5 +189,40 @@ export default {
         "monitored": false,
         "contractFetchAddress": "https://testnet.telos.net/" + TELOS_SUFFIX,
         "isTelos": true
+    },
+    "57": {
+        "supported": true,
+        "monitored": false,
+        "contractFetchAddress":  + BLOCKSCOUT_SUFFIX,
+    },
+    "5700": {
+        "supported": true,
+        "monitored": false,
+        "contractFetchAddress":  "https://tanenbaum.io/" + BLOCKSCOUT_SUFFIX,
+        "txRegex": getBlockscoutRegex()
+    },
+    "8": {
+        "supported": true,
+        "monitored": false,
+        "contractFetchAddress": "https://ubiqscan.io/" + ETHERSCAN_SUFFIX,
+        "txRegex": ETHERSCAN_REGEX
+    },
+    "311752642": {
+        "supported": true,
+        "monitored": false,
+        "contractFetchAddress": "https://mainnet-explorer.oneledger.network/" + BLOCKSCOUT_SUFFIX,
+        "rpc": [
+            "https://mainnet-rpc.oneledger.network"
+        ],
+        "txRegex": getBlockscoutRegex()
+    },
+    "4216137055": {
+        "supported": true,
+        "monitored": false,
+        "contractFetchAddress": "https://frankenstein-explorer.oneledger.network/" + BLOCKSCOUT_SUFFIX,
+        "rpc": [
+            "https://frankenstein-rpc.oneledger.network"
+        ],
+        "txRegex": getBlockscoutRegex()
     }
 }
